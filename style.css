@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Buttons */
+
+.container {
+    width: 80%;
+    height: 608px;
+    background: rgba(1, 79, 82, 0.63);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    padding-top: 50px;
+}
+
+.plan{
+    width: 90%;
+}
+
+.header-section {
+    height: 125px;
+    text-align: center;
+    border: 2px solid #454545;
+    margin: auto;
+}
+
+.text {
+    color: #fff;
+    text-decoration: overline;
+}
+
+.btn {
+    color: #fff;
+    background-color: #a80139;
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    border-radius: 0;
+    background-color: #0000ff;
+}
+
+.btn2:hover {
+    border-radius: 0;
+    background-color: #008000;
+}
+
+.btn3:hover {
+    border-radius: 0;
+    background-color: #000;
+}
+
+.btn4:hover {
+    border-radius: 0;
+    background-color: #ffff00;
+}
+
+/* Buttons */
+
+/* Images */
+
+.main-section {
+    height: 200px;
+    text-align: center;
+    border: 2px solid #454545;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 2px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.image_1{
+    background: url(img/dellxps17.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image_2{
+    background: url(img/lenovolegion5pro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image_3{
+    background: url(img/macbookpro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image_4{
+    background: url(img/razerblade14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image:hover{
+    border-radius: 0;
+}
+
+/* End images */
+
+/* Start text */
+
+.footer-section{
+    height: 180px;
+    border: 2px solid #454545;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.tekst{
+    text-align: center;
+}
+
+.items{
+    color: rgb(110, 56, 43);
+    cursor: pointer;
+}
+
+.item-1:hover{
+    color: #ffff00;
+}
+
+.item-2:hover{
+    color: #fff;
+}
+
+.item-3:hover{
+    color: #000;
+}
+
+.item-4:hover{
+    color: #008000;
+}
